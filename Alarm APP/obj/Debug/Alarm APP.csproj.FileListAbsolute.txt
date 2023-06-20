@@ -1,0 +1,24 @@
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\bin\Debug\Alarm APP.exe.config
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\bin\Debug\Alarm APP.exe
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\bin\Debug\Alarm APP.pdb
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Alarm APP.csproj.AssemblyReference.cache
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Alarm APP.csproj.SuggestedBindingRedirects.cache
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\MainWindow.g.cs
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\App.g.cs
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Alarm APP_MarkupCompile.cache
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Alarm APP_MarkupCompile.lref
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\MainWindow.baml
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Alarm APP.g.resources
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Alarm_APP.Properties.Resources.resources
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Alarm APP.csproj.GenerateResource.cache
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Alarm APP.csproj.CoreCompileInputs.cache
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Alarm APP.exe
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Alarm APP.pdb
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Window1.g.cs
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Window1.baml
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Takvim.g.cs
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\Takvim.baml
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\TakvimEdit.g.cs
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\TakvimEdit.baml
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\TakvimEditScreen.baml
+C:\Users\samet\source\repos\Alarm APP\Alarm APP\obj\Debug\TakvimEditScreen.g.cs
