@@ -1,0 +1,71 @@
+﻿<Window x:Name="RegisterWindow" x:Class="Alarm_APP.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Alarm_APP"
+        mc:Ignorable="d"
+        Title="Kayıt Ekranı" Height="450" Width="800">
+    <Grid Background="#F0F0F0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Margin="30,-13,30,73">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label Content="Ad" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,10,0,0" />
+            <TextBox x:Name="adTxt" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,10,0,0" Width="200" />
+
+            <Label Content="Soyad" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,50,0,0" />
+            <TextBox x:Name="soyadTxt" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,50,0,0" Width="200" />
+
+            <Label Content="Kullanıcı Adı" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,90,0,0" />
+            <TextBox x:Name="kullaniciAdiTxt" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,90,0,0" Width="200" />
+
+            <Label Content="TC Kimlik NO" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="340,10,0,0" />
+            <TextBox x:Name="tcKimlikTxt" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="450,10,0,0" Width="200" />
+
+            <Label Content="Telefon" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="340,50,0,0" />
+            <TextBox x:Name="telefonTxt" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="450,50,0,0" Width="200" />
+
+            <Label Content="E-posta adresi" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="340,90,0,0" />
+            <TextBox x:Name="epostaTxt" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="450,90,0,0" Width="200" />
+
+            <Label Content="Adres" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340,180,0,0" />
+            <TextBox x:Name="adresTxt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="450,178,0,0" Width="200" Height="70" TextWrapping="Wrap" Grid.RowSpan="14" />
+
+            <Label Content="Kullanıcı Tipi" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,170,0,0" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,170,0,0">
+                <CheckBox x:Name="adminCheckBox" Content="Yönetici" Margin="0,0,10,0" />
+                <CheckBox x:Name="userCheckBox" Content="Üye" />
+            </StackPanel>
+
+            <Label Content="Şifre" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,210,0,0" />
+            <PasswordBox x:Name="passwordTxt" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,210,0,0" Width="200" />
+
+            <Button x:Name="registerBtn" Content="Üye Ol" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268,38,0,0" Width="200" Height="40" Background="#007ACC" Foreground="White" Click="registerBtn_Click" Grid.Row="13" />
+
+            <Button Content="İptal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="318,99,0,0" Width="100" Height="30" Background="#E65100" Foreground="White" Click="Button_Click" Grid.Row="13"  />
+        </Grid>
+    </Grid>
+</Window>

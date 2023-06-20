@@ -1,0 +1,21 @@
+﻿<Window x:Class="Alarm_APP.TakvimEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Alarm_APP"
+        mc:Ignorable="d"
+        Title="TakvimEdit" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="dataGridView" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" 
+                  BorderThickness="0" Background="#F0F0F0" GridLinesVisibility="None" AlternatingRowBackground="#E0E0E0" 
+                  CanUserResizeColumns="False" CanUserResizeRows="False" CanUserReorderColumns="False">
+        </DataGrid>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+            <Button Content="Edit" Click="EditButton_Click" Margin="5" Background="#007ACC" Foreground="White" />
+            <Button Content="Delete" Click="DeleteButton_Click" Margin="5" Background="#D50000" Foreground="White" />
+            <Button Content="Refresh" Click="RefreshButton_Click" Margin="5" Background="#4CAF50" Foreground="White" />
+        </StackPanel>
+    </Grid>
+</Window>
